@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(10, 10, 10);
+    width: 40vw;
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+body{
+    background-color: rgb(214, 213, 214);
+    display: flex;
+    justify-content: center;
+}
+.result{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.re{
+    color: rgb(94, 245, 167);
+}
