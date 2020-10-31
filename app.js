@@ -26,7 +26,9 @@ function cal(workingHours, extraworkingHours){
     var netPay = baseSalary + extraPay
     // writing the results into the html document
     document.getElementById("namespace").innerHTML = name;
+    document.getElementById("hourWork").innerHTML = workingHours;
     document.getElementById("baseSalary").innerHTML = "#" + baseSalary;
+    document.getElementById("extrahr").innerHTML = extraworkingHours;
     document.getElementById("extraPay").innerHTML = "#" + extraPay;
     document.getElementById("netpay").innerHTML = "#" + netPay;
 }
